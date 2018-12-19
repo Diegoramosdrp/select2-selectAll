@@ -25,3 +25,4 @@ $(function () {
         };
         $("#selectAll").select2All($paramsCon);
 });
+
