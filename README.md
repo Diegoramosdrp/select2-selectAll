@@ -17,11 +17,11 @@ VERSION : 1.0
 Instance :
 
 $(function () {
-		var $paramsCon = {
-					placeholder: "Select states",
-					allowClear: true,
-					containerCssClass: "con-dropdown",
-					closeOnSelect: false
-		};
-    $("#selectAll").select2All($paramsCon);
+        var $paramsCon = {
+                placeholder: "Select states",
+                allowClear: true,
+                containerCssClass: "con-dropdown",
+                closeOnSelect: false
+        };
+        $("#selectAll").select2All($paramsCon);
 });
