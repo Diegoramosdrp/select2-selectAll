@@ -12,3 +12,16 @@ VERSION : 1.0
  * This only will work if select2.js is declared in your header
  * The script don't will work if params are null or empty
  * The its main function is add buttons add all and clear all at select
+
+
+Instance :
+
+$(function () {
+		var $paramsCon = {
+					placeholder: "Select states",
+					allowClear: true,
+					containerCssClass: "con-dropdown",
+					closeOnSelect: false
+		};
+    $("#selectAll").select2All($paramsCon);
+});
